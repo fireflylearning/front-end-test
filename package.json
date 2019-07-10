@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "webpack": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "start": "npm run webpack & npm run start-server",
+    "start": "npm-run-all --parallel start-server webpack",
     "start-server": "json-server --watch ./src/db/db.json",
     "test": "echo \"No test specified\" && exit 0"
   },
@@ -21,6 +21,7 @@
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
+    "npm-run-all": "^4.1.5",
     "react-hot-loader": "^4.8.4",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1",
