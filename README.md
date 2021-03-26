@@ -17,9 +17,7 @@ Designs showing all required states of the application can be found in the folde
 
 - Should be built with React and Redux 
 - Should match the provided designs as closely as possible
-- Should be cross-browser compatible (Edge, Chrome, Firefox, Safari)
-- Should be responsive
-- Should have good test coverage (feel free to use the testing strategy and tools that you believe are most appropriate)
+- Should have some/good test coverage (feel free to use the testing strategy and tools that you believe are most appropriate)
 
 Please feel free to use any other technologies/tools that you are comfortable with in addition to the above mentioned.
 
@@ -92,10 +90,11 @@ We know that everyone is busy so we don't really give a set time-frame by which 
 
 Your solution will be evaluated based on the following:
 
-1. Techincal and functional requirements satisfaction
+1. Requirements satisfaction
 2. Code quality
-3. Application structure and architecture
 
 Extra points will be awarded if you take into consideration accessibility best practices when developing your solution.
+
+Extra points if the final solution is responsive.
 
 You will be asked to talk about your solution and the decisions you made during the face-to-face interview.
