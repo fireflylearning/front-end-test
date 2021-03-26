@@ -17,7 +17,7 @@ Designs showing all required states of the application can be found in the folde
 
 - Should be built with React and Redux 
 - Should match the provided designs as closely as possible
-- Should have some/good test coverage (feel free to use the testing strategy and tools that you believe are most appropriate)
+- Should have some test coverage (at least one test)
 
 Please feel free to use any other technologies/tools that you are comfortable with in addition to the above mentioned.
 
