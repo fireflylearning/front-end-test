@@ -1,32 +1,29 @@
-const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: './src/index.js',
-  devtool: "source-map",
+  devtool: 'source-map',
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
-      }
-    ]
+        use: ['babel-loader'],
+      },
+    ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx']
+    extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: __dirname + '/public',
+    path: path.join(__dirname + '/public'),
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ],
   devServer: {
     contentBase: './public',
     port: 8081,
     open: true,
-    hot: true
-  }
+    hot: true,
+  },
 };
