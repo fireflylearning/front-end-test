@@ -17,7 +17,7 @@ Designs showing all required states of the application can be found in the folde
 
 - Should be built with React and Redux 
 - Should match the provided designs as closely as possible
-- Should be cross-browser compatible (IE11, Edge, Chrome, Firefox, Safari)
+- Should be cross-browser compatible (Edge, Chrome, Firefox, Safari)
 - Should be responsive
 - Should have good test coverage (feel free to use the testing strategy and tools that you believe are most appropriate)
 
