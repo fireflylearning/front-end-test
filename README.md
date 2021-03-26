@@ -81,7 +81,7 @@ The following provided utilities should be used to do any api call required to m
 
 ### A note on styling
 
-We don't enforce any styling library/tool so it's not part of the project confugiration. Please use any library/strategy that you are more comfortable with.
+We don't enforce any styling library/tool so it's not part of the project configuration. Please use any library/strategy that you are more comfortable with.
 
 
 ## How we evaluate this test
