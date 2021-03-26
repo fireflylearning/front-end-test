@@ -93,8 +93,9 @@ Your solution will be evaluated based on the following:
 1. Requirements satisfaction
 2. Code quality
 
-Extra points will be awarded if you take into consideration accessibility best practices when developing your solution.
+Extra points will be awarded if:
 
-Extra points if the final solution is responsive.
+- You take into consideration accessibility best practices when developing your solution.
+- The final solution is responsive.
 
 You will be asked to talk about your solution and the decisions you made during the face-to-face interview.
