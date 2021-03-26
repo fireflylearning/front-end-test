@@ -11,5 +11,10 @@
   },
   "plugins": [
     "react"
-  ]
+  ],
+  "rules": {
+    "arrow-parens": "off",
+    "react/jsx-filename-extension": "off",
+    "implicit-arrow-linebreak": "off"
+  }
 }
